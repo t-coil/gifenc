@@ -21,6 +21,8 @@ type WriteFrameOpts = {
   delay?: number;
   repeat?: number;
   dispose?: number;
+  x?: number;
+  y?: number;
 };
 
 type Encoder = {
@@ -62,4 +64,3 @@ export declare function nearestColorIndexWithDistance(
   palette: number[][],
   pixel: [number, number, number] | [number, number, number]
 ): [number, number];
-
